@@ -5,5 +5,7 @@ a = int(a)
 b = int(b)
 
 result = a + b
+difference = a - b
 
 print("Sum: ", result)
+print("Dif: ", difference)
