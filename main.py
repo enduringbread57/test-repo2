@@ -1,13 +1,13 @@
-a = input("Enter first number: ")
-b = input("Enter second number: ")
+first = input("Enter first number: ")
+second = input("Enter second number: ")
 
-a = int(a)
-b = int(b)
+a = int(first)
+b = int(second)
 
-result = a + b
-difference = a - b
-product = a * b
+sum_result = a + b 
+sub_result = a - b
+mul_result = a * b
 
-print("Sum: ", result)
-print("Dif: ", difference)
-print("Pro: ", product)
+print("Sum: ", sum_result)
+print("Difference: ", sub_result)
+print("Product: ", mul_result)
